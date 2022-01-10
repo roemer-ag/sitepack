@@ -1,0 +1,20 @@
+{
+    "name": "roemerag/typo3-showcase2022",
+    "type": "typo3-cms-extension",
+    "description": "roemer.ag Typo3-Showcase für eine ComposerBootstrap-Package-Installation",
+    "homepage": "https://www.roemer.ag",
+    "license": ["GPL-2.0-or-later"],
+    "require": {
+        "bk2k/bootstrap-package": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Roemerag\\Typo3Showcase2022\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "typo3_showcase2022"
+        }
+    }
+}

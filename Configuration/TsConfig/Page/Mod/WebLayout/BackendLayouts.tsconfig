@@ -1,0 +1,4 @@
+#
+# BACKENDLAYOUTS
+#
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3_showcase2022/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
